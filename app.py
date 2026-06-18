@@ -49,14 +49,14 @@ with tab2:
 with tab3:
     st.header("Geliştirdiğim Projeler")
     
-    # Yeni Proje (Isolation Forest)
+
     with st.expander("AI-Powered Personnel Tracking & Anomaly Detection System (Haziran 2026)"):
         st.markdown("""
         * **Platform:** GitHub & Streamlit Community Cloud
         * **Açıklama:** Çalışanların giriş/çıkış loglarını analiz ederek şüpheli aktiviteleri otomatik tespit eden bulut tabanlı bir web uygulaması geliştirdim.
         * **Kullanılan Teknolojiler:** Python, Scikit-learn (Isolation Forest), Pandas, Streamlit, Google Firebase.
         * **Detay:** Hardcoded (sabit) if-else kuralları yerine, veriden kendi kendine öğrenen gözetimsiz (unsupervised) bir model entegre ettim ve verileri Firebase üzerinde gerçek zamanlı olarak sakladım.
-        * [Proje Linki](https://github.com/yusufalpergulden/ai-personnel-tracking)
+        * [Proje Linki](https://personnel-tracking-system.streamlit.app)
         """)
         
     # Keras Projesi
