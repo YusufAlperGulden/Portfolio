@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Sayfa Ayarları
-st.set_page_config(page_title="Yusuf Alper Gülden | Portfolio", page_icon="👨‍💻", layout="wide")
+st.set_page_config(page_title="Yusuf Alper Gülden | Portfolio", layout="wide")
 
 # --- YAN MENÜ (SIDEBAR) ---
 st.sidebar.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=150) # Temsili profil fotoğrafı
