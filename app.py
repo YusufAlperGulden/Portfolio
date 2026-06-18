@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Yusuf Alper Gülden | Portfolio", page_icon="👨‍💻", layout="wide")
 
 # --- YAN MENÜ (SIDEBAR) ---
-st.sidebar.image("profil.jpg", width=190)
+st.sidebar.image("profil.jpg", width=300)
 st.sidebar.title("Yusuf Alper Gülden")
 st.sidebar.write("💻 Bilgisayar Mühendisliği Öğrencisi | AI & Data Science")
 st.sidebar.markdown("---")
