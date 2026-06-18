@@ -12,7 +12,7 @@ st.sidebar.header("İletişim Bilgileri")
 st.sidebar.write("📍 İstanbul, Türkiye")
 st.sidebar.write("📧 yusufalpergulden2@gmail.com")
 st.sidebar.write("📞 +90 (553) 703 49 83")
-st.sidebar.markdown("[LinkedIn Profili](https://linkedin.com/in/yusufalpergulden)")
+st.sidebar.markdown("[LinkedIn Profili](https://linkedin.com/in/yusufalpergülden)")
 st.sidebar.markdown("[GitHub Profili](https://github.com/YusufAlperGulden)")
 
 # --- ANA SAYFA (SEKMELER) ---
