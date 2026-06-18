@@ -1,10 +1,10 @@
 import streamlit as st
 
 # Sayfa Ayarları
-st.set_page_config(page_title="Yusuf Alper Gülden | Portfolio", layout="wide")
+st.set_page_config(page_title="Yusuf Alper Gülden | Portfolio", page_icon="👨‍💻", layout="wide")
 
 # --- YAN MENÜ (SIDEBAR) ---
-st.sidebar.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=150) # Temsili profil fotoğrafı
+st.sidebar.image("profil.jpg", width=190)
 st.sidebar.title("Yusuf Alper Gülden")
 st.sidebar.write("💻 Bilgisayar Mühendisliği Öğrencisi | AI & Data Science")
 st.sidebar.markdown("---")
@@ -12,7 +12,7 @@ st.sidebar.header("İletişim Bilgileri")
 st.sidebar.write("📍 İstanbul, Türkiye")
 st.sidebar.write("📧 yusufalpergulden2@gmail.com")
 st.sidebar.write("📞 +90 (553) 703 49 83")
-st.sidebar.markdown("[LinkedIn Profili](https://linkedin.com/in/yusufalpergülden)")
+st.sidebar.markdown("[LinkedIn Profili](https://linkedin.com/in/yusufalpergulden)")
 st.sidebar.markdown("[GitHub Profili](https://github.com/YusufAlperGulden)")
 
 # --- ANA SAYFA (SEKMELER) ---
